@@ -2,13 +2,10 @@
 
 class Phone
 {
-    public $name;
-    public $price;
-
-    public function __construct($name, $price)
+    // Depuis PHP8.0 on peut écrire le constructeur de cette manière
+    public function __construct(public $name, public $price)
     {
-        $this->name = $name;
-        $this->price = $price;
+
     }
 
     public function getDollardFromEuroToCurrency($coefficient, $currentSymbol = "$"){
