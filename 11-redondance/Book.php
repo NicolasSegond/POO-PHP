@@ -119,10 +119,10 @@ class Book
     {
         $string = "{$this->title}, {$this->author}, ";
         if ($this->type === "digital") {
-
+            $string .= "Weight: {$this->getWeight()}";
         } else if($this->type === "physical"){
-
+            $string .= "FileSize: {$this->getFileSize()}";
         }
-        return;
+        return $string;
     }
 }
