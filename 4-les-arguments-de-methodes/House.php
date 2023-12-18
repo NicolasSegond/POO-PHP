@@ -10,3 +10,11 @@ class House
         return $this->price * 1.08.$currentSymbol;
     }
 }
+
+$house = new House();
+$house->price = 500000;
+$dollardHousePrice = $house->getDollarPrice();
+var_dump($dollardHousePrice).PHP_EOL;
+// ici on écrase la valeur par défaut
+$dollardHousePrice = $house->getDollarPrice("€");
+var_dump($dollardHousePrice).PHP_EOL;
