@@ -20,16 +20,16 @@ $panier2->addPanier($apple);
 $panier3 = new Panier();
 $panier3->addPanier($apple);
 
-// Affichage des paniers
-print 'Panier 1:';
-foreach ($panier1->getPanier() as $fruit) {
-    print $fruit->__toString() . PHP_EOL;
-}
-
-print 'Panier 2:';
-foreach ($panier2->getPanier() as $fruit) {
-    print $fruit->__toString() . PHP_EOL;
-}
+//// Affichage des paniers
+//print 'Panier 1:';
+//foreach ($panier1->getPanier() as $fruit) {
+//    print $fruit->__toString() . PHP_EOL;
+//}
+//
+//print 'Panier 2:';
+//foreach ($panier2->getPanier() as $fruit) {
+//    print $fruit->__toString() . PHP_EOL;
+//}
 
 // Formulaire de sélection de panier
 ?>
