@@ -1,0 +1,1 @@
+Starting...A problem occured..File inventory.json does not exist on line 8 in file C:\wamp64\www\POO-PHP\poo-avancees\8-le-bloc-finally\JsonFileReader.php
