@@ -1,0 +1,10 @@
+<?php
+
+namespace Utility;
+class Chart
+{
+    public function draw(): string
+    {
+        return 'Draw a chart';
+    }
+}
