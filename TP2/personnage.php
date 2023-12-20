@@ -12,9 +12,7 @@ $p4 = new Personnage("Jeanne", "playerF.png", 25, Personnage::FEMME, 4, 5);
 
 $persos = Personnage::$lesPersonnages;
 ?>
-
     <h2> Personnage : </h2>
-
 <?php foreach ($persos as $perso) {
     $perso->afficherPersonnage();
 }
