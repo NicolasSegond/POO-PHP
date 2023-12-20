@@ -21,7 +21,7 @@ class User implements AuthentificatedUserInterface
         return $this->name;
     }
 
-    private setPassword(string $password): void
+    private function setPassword(string $password): void
     {
         $this->password = $password;
     }
