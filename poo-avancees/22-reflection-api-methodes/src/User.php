@@ -2,7 +2,7 @@
 
 namespace App;
 
-use src\AuthentificatedUserInterface;
+use App\AuthentificatedUserInterface;
 
 class User implements AuthentificatedUserInterface
 {
